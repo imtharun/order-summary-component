@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  max-width: 1440px;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main {
+  margin-top: 1.5rem;
+  max-width: 400px;
+  border-radius: 1rem;
+  box-shadow: 2px 4px 5px 1px #9ca3af;
+}
+
+#main > .img {
+  background-image: url("/images/illustration-hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 400px;
+  height: 200px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+#main > .container {
+  max-width: 400px;
+  /* height: 350px; */
+  min-height: 62vh;
+  /* max-height: 230px; */
+  background-color: hsl(225, 100%, 98%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.container .lower {
+  width: 100%;
+}
+
+.container > .lower .heading {
+  padding-top: 2rem;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+}
+
+.container > .lower .para {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  margin: 0.5rem 3rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.container .plan {
+  display: flex;
+  justify-content: space-around;
+  background-color: hsl(225, 100%, 96%);
+  margin: 1rem 2rem;
+  max-width: 350px;
+  height: 90px;
+  border-radius: 0.5rem;
+}
+
+.container .plan > img {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  align-self: center;
+  width: 45px;
+  height: 45px;
+}
+
+.container .plan .smallsec {
+  min-width: 200px;
+  align-self: center;
+}
+
+.container .plan .smallsec .annual {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 14px;
+  color: black;
+  font-weight: 900;
+}
+
+.container .plan .smallsec .price {
+  font-style: 12px;
+  margin-top: 0.3rem;
+  font-weight: 700px;
+  padding-top: 0;
+  color: hsl(224, 23%, 55%);
+}
+.container .plan .chnge {
+  align-self: center;
+  padding-right: 1rem;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container .plan .chnge:hover {
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.container .links {
+  text-align: center;
+  list-style: none;
+}
+
+.container .links .payment {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(56, 41, 224);
+  padding: 0.8rem 6rem;
+  transition: box-shadow 0.1s ease;
+}
+
+.container .links .common {
+  border-radius: 0.5rem;
+  font-size: 14px;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.container .links .payment:hover {
+  opacity: 0.8;
+  box-shadow: 2px 2px 5px 1px #9ca3af;
+}
+
+.container .links .cancel {
+  padding: 0.8rem 7rem;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+  transition: box-shadow 0.1s ease;
+  /* margin-bottom: 1rem; */
+}
+
+.container .links .cancel:hover {
+  box-shadow: 2px 2px 5px 1px #bfc0c2;
+  background-color: hsl(240, 17%, 91%);
+}
