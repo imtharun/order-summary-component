@@ -39,9 +39,8 @@ body {
 
 #main > .container {
   max-width: 400px;
-  /* height: 350px; */
-  min-height: 62vh;
-  /* max-height: 230px; */
+  height: 410px;
+  min-height: 100%;
   background-color: hsl(225, 100%, 98%);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -135,7 +134,7 @@ body {
   border-radius: 0.5rem;
   font-size: 14px;
   font-weight: 900;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   display: inline-block;
   text-align: center;
   margin-right: 2rem;
@@ -151,7 +150,6 @@ body {
   color: hsl(224, 23%, 55%);
   text-decoration: none;
   transition: box-shadow 0.1s ease;
-  /* margin-bottom: 1rem; */
 }
 
 .container .links .cancel:hover {

@@ -14,6 +14,10 @@ The challenge is to build out this order summary card component and get it looki
 
 <kbd><img src="Screenshot.png" width="500px"></kbd>
 
+### Link to project
+
+Click -> [Order-summary-component](https://order-summary-component-frontend-mentor.netlify.app/)
+
 ### Built with
 
 - HTML5
