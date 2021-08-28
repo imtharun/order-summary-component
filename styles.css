@@ -52,9 +52,9 @@ body {
 
 .container > .lower .heading {
   padding-top: 2rem;
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: 900;
-  margin: 0;
+  margin: 0rem;
   text-align: center;
 }
 
@@ -95,20 +95,20 @@ body {
   padding-bottom: 0;
   font-size: 14px;
   color: black;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .container .plan .smallsec .price {
-  font-style: 12px;
+  font-size: 14px;
   margin-top: 0.3rem;
-  font-weight: 700px;
+  font-weight: 500px;
   padding-top: 0;
   color: hsl(224, 23%, 55%);
 }
 .container .plan .chnge {
   align-self: center;
   padding-right: 1rem;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -124,10 +124,12 @@ body {
 
 .container .links .payment {
   text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
   color: white;
   background-color: rgb(56, 41, 224);
   padding: 0.8rem 6rem;
-  transition: box-shadow 0.1s ease;
+  box-shadow: 00px 10px 10px #3a2bdb42;
 }
 
 .container .links .common {
@@ -137,22 +139,19 @@ body {
   margin-bottom: 1rem;
   display: inline-block;
   text-align: center;
-  margin-right: 2rem;
+  border: 0;
 }
 
 .container .links .payment:hover {
   opacity: 0.8;
-  box-shadow: 2px 2px 5px 1px #9ca3af;
 }
 
 .container .links .cancel {
   padding: 0.8rem 7rem;
   color: hsl(224, 23%, 55%);
   text-decoration: none;
-  transition: box-shadow 0.1s ease;
 }
 
 .container .links .cancel:hover {
-  box-shadow: 2px 2px 5px 1px #bfc0c2;
-  background-color: hsl(240, 17%, 91%);
+  color: black;
 }
